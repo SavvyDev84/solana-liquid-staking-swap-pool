@@ -7,7 +7,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 use anchor_spl::token::{
     burn, transfer as transfer_token, Burn, Mint, Token, TokenAccount, Transfer as TransferToken,
 };
-
+// removing liqudity
 #[derive(Accounts)]
 pub struct RemoveLiquidity<'info> {
     #[account(mut)]
